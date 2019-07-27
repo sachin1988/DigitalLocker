@@ -41,7 +41,8 @@ public class ApiExceptionHandler {
 	 
 	 public static class ErrorItem {
 
-	        @JsonInclude(JsonInclude.Include.NON_NULL) private String code;
+	        @JsonInclude(JsonInclude.Include.NON_NULL)
+	        private String code;
 
 	        private String message;
 

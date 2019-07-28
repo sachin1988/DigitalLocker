@@ -22,6 +22,21 @@ public class Product {
 	
 	private String productURL;
 
+	
+	
+	public Product() {
+		super();
+	}
+
+	public Product(Long id, @NotNull(message = "The product name is required") String name, double price,
+			String productURL) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.price = price;
+		this.productURL = productURL;
+	}
+
 	public Long getId() {
 		return id;
 	}

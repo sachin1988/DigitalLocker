@@ -8,7 +8,7 @@ import org.springframework.validation.annotation.Validated;
 import com.smartshopping.application.model.Product;
 
 @Validated
-public interface Service {
+public interface ProductService {
 	Product save(Product product);
 		
 	Product getProduct(String name);

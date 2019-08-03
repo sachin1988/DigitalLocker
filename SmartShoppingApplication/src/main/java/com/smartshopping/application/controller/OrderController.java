@@ -36,6 +36,13 @@ public class OrderController {
 	ProductService productService;
 	OrderProductService orderProductService;
 	
+	
+	
+	
+	public OrderController() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	OrderController(OrderService orderService,ProductService productService,OrderProductService orderProductService ){
 		this.orderProductService=orderProductService;
 		this.orderService=orderService;

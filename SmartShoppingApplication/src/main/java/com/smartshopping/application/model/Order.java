@@ -31,7 +31,7 @@ public class Order {
 	
 	private String status;
 	
-	@OneToMany(mappedBy="pk.order")
+	@OneToMany(mappedBy="orderProductPK.order")
 	@Valid
 	private List<OrderProduct> orderProducts=new ArrayList<>();
 	

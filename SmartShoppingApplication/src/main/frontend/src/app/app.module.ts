@@ -8,7 +8,10 @@ import { ProductsComponent } from './ecommerce/products/products.component';
 import { OrdersComponent } from './ecommerce/orders/orders.component';
 import { ShoppingCartComponent } from './ecommerce/shopping-cart/shopping-cart.component';
 import {EcommerceService} from "./ecommerce/services/EcommerceService";
-import { HttpClientModule } from '@angular/common/http'; 
+import { HttpClientModule } from '@angular/common/http';
+import { LoginComponent } from './login/login.component';
+import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { HttpClientModule } from '@angular/common/http';
     EcommerceComponent,
     ProductsComponent,
     OrdersComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    LoginComponent,
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
